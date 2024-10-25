@@ -1,4 +1,4 @@
-package com.maskarad.pgpwalkietalkie;
+package com.maskarad.ratatoskr;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("main.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 250, 100);
-        stage.setTitle("PGP Walkie-Talkie");
+        stage.setTitle("ratatoskr");
         stage.setScene(scene);
         stage.show();
     }

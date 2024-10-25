@@ -3,6 +3,6 @@ module com.maskarad.pgpwalkietalkie {
     requires javafx.fxml;
 
 
-    opens com.maskarad.pgpwalkietalkie to javafx.fxml;
-    exports com.maskarad.pgpwalkietalkie;
+    opens com.maskarad.ratatoskr to javafx.fxml;
+    exports com.maskarad.ratatoskr;
 }

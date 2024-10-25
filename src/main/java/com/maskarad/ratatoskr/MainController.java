@@ -1,4 +1,4 @@
-package com.maskarad.pgpwalkietalkie;
+package com.maskarad.ratatoskr;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
