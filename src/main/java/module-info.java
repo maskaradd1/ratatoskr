@@ -1,4 +1,4 @@
-module com.maskarad.pgpwalkietalkie {
+module com.maskarad.ratatoskr {
     requires javafx.controls;
     requires javafx.fxml;
 
