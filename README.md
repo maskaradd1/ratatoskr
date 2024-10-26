@@ -1,7 +1,7 @@
 # Ratatoskr
 A messenger on Yggdrasil network.
 
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
 
 ## Description
 
