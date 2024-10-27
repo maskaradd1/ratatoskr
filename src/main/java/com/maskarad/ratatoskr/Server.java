@@ -29,7 +29,7 @@ public class Server {
                             String message;
                             while ((message = in.readLine()) != null) {
                                 if (messageListener != null) {
-                                    messageListener.onMessageReceived(message); // Notify listener
+                                    messageListener.onMessageReceived(message);
                                 }
                             }
                         } catch (IOException e) {

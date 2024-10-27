@@ -45,22 +45,19 @@ public class MainController implements MessageListener {
         String message = textField_SendMessage.getText();
         Client.send(client, message);
 
-        // Display the sent message in the TextArea
         displayMessage("Sent: " + message);
     }
 
     @FXML
     void openServer(ActionEvent event) {
-        Server.initialize(7990, this);  // Pass MainController as listener
+        Server.initialize(7990, this);
     }
 
     @Override
     public void onMessageReceived(String message) {
-        // Display the received message in the TextArea
         displayMessage("Received: " + message);
     }
 
-    // Utility method to display a message in the TextArea
     private void displayMessage(String message) {
         Platform.runLater(() -> textArea_RecievedMessages.appendText(message + "\n"));
     }

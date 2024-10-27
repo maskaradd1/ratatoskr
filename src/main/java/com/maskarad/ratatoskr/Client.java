@@ -13,7 +13,7 @@ public class Client{
     }
 
     public static void send(SocketChannel client, String message) throws IOException {
-        ByteBuffer buffer = ByteBuffer.wrap((message + "\n").getBytes()); // Add newline
+        ByteBuffer buffer = ByteBuffer.wrap((message + "\n").getBytes());
         client.write(buffer);
     }
 
